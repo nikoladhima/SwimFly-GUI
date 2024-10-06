@@ -1,7 +1,3 @@
-print("Loading SwimFly GUI")
-task.wait(1.69)
-print("SwimFly GUI loaded")
-task.wait()
 local main = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local up = Instance.new("TextButton")
@@ -476,3 +472,4 @@ mini2.MouseButton1Click:Connect(function()
 	main.Frame.BackgroundTransparency = 0 
 	closebutton.Position =  UDim2.new(0, 0, -1, 27)
 end)
+print("SwimFly GUI loaded")
